@@ -113,8 +113,3 @@ uv run pytest
 uv run ruff check .
 ```
 
-## Out of scope for this phase
-
-Disproportionality statistics (PRR/ROR/chi-square), Neo4j graph loading (the `docker-compose.yml`
-Neo4j+APOC+GDS scaffold is included but not yet wired to any code), the FastAPI query service, and
-graph-based link prediction (explicitly gated on the statistical baseline being validated first).
