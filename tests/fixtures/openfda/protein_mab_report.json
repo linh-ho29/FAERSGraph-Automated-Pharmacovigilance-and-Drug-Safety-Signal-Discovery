@@ -1,0 +1,26 @@
+{
+  "safetyreportid": "10000003",
+  "safetyreportversion": "1",
+  "receivedate": "20230305",
+  "receiptdate": "20230301",
+  "serious": "1",
+  "seriousnessdisabling": "1",
+  "patient": {
+    "drug": [
+      {
+        "medicinalproduct": "HUMIRA",
+        "drugcharacterization": "1",
+        "drugindication": "Rheumatoid arthritis",
+        "openfda": {
+          "substance_name": ["ADALIMUMAB"],
+          "generic_name": ["ADALIMUMAB"],
+          "pharm_class_cs": ["Monoclonal Antibody [EPC]"],
+          "application_number": ["BLA125057"]
+        }
+      }
+    ],
+    "reaction": [
+      {"reactionmeddrapt": "Injection site reaction", "reactionoutcome": "1"}
+    ]
+  }
+}

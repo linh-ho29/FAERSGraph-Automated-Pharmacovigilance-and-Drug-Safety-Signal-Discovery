@@ -1,0 +1,20 @@
+# Scaffold for a later phase (graph loading / FastAPI query service). Not used by any code in
+# this MVP (ingestion, provenance/versioning, normalization) -- included so `docker compose up`
+# is ready to go once the Neo4j loader is built.
+services:
+  neo4j:
+    image: neo4j:5-community
+    ports:
+      - "7474:7474" # browser UI
+      - "7687:7687" # bolt
+    environment:
+      NEO4J_AUTH: "neo4j/${NEO4J_PASSWORD:-changeme_local_only}"
+      NEO4J_PLUGINS: '["apoc", "graph-data-science"]'
+      NEO4J_dbms_security_procedures_unrestricted: "apoc.*,gds.*"
+    volumes:
+      - neo4j_data:/data
+      - neo4j_logs:/logs
+
+volumes:
+  neo4j_data:
+  neo4j_logs:

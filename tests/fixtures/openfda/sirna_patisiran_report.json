@@ -1,0 +1,27 @@
+{
+  "safetyreportid": "10000001",
+  "safetyreportversion": "1",
+  "receivedate": "20230115",
+  "receiptdate": "20230110",
+  "serious": "1",
+  "seriousnesshospitalization": "1",
+  "patient": {
+    "drug": [
+      {
+        "medicinalproduct": "ONPATTRO",
+        "drugcharacterization": "1",
+        "drugindication": "Hereditary transthyretin amyloidosis",
+        "openfda": {
+          "substance_name": ["PATISIRAN"],
+          "generic_name": ["PATISIRAN"],
+          "pharm_class_cs": ["Small Interfering RNA [EPC]"],
+          "application_number": ["NDA210922"]
+        }
+      }
+    ],
+    "reaction": [
+      {"reactionmeddrapt": "Peripheral neuropathy", "reactionoutcome": "2"},
+      {"reactionmeddrapt": "Infusion related reaction", "reactionoutcome": "1"}
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "safetyreportid": "10000002",
+  "safetyreportversion": "1",
+  "receivedate": "20230201",
+  "receiptdate": "20230128",
+  "serious": "2",
+  "patient": {
+    "drug": [
+      {
+        "medicinalproduct": "SANDOSTATIN",
+        "drugcharacterization": "1",
+        "drugindication": "Acromegaly",
+        "openfda": {
+          "substance_name": ["OCTREOTIDE"],
+          "generic_name": ["OCTREOTIDE ACETATE"],
+          "pharm_class_cs": ["Peptide Hormone [EPC]"],
+          "application_number": ["NDA021008"]
+        }
+      }
+    ],
+    "reaction": [
+      {"reactionmeddrapt": "Nausea", "reactionoutcome": "1"},
+      {"reactionmeddrapt": "Abdominal pain", "reactionoutcome": "2"}
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "safetyreportid": "10000005",
+  "safetyreportversion": "1",
+  "receivedate": "20230501",
+  "receiptdate": "20230428",
+  "serious": "2",
+  "patient": {
+    "drug": [
+      {
+        "medicinalproduct": "LEQVIO",
+        "drugcharacterization": "1",
+        "drugindication": "Hypercholesterolaemia",
+        "openfda": {
+          "substance_name": ["INCLISIRAN"],
+          "generic_name": ["INCLISIRAN"],
+          "pharm_class_cs": ["Small Interfering RNA [EPC]"],
+          "application_number": ["NDA214012"]
+        }
+      }
+    ],
+    "reaction": [
+      {"reactionmeddrapt": "Injection site pain", "reactionoutcome": "1"}
+    ]
+  }
+}

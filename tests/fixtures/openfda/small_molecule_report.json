@@ -1,0 +1,25 @@
+{
+  "safetyreportid": "10000004",
+  "safetyreportversion": "1",
+  "receivedate": "20230410",
+  "receiptdate": "20230405",
+  "serious": "2",
+  "patient": {
+    "drug": [
+      {
+        "medicinalproduct": "GLEEVEC",
+        "drugcharacterization": "1",
+        "drugindication": "Chronic myeloid leukaemia",
+        "openfda": {
+          "substance_name": ["IMATINIB"],
+          "generic_name": ["IMATINIB MESYLATE"],
+          "application_number": ["NDA021588"]
+        }
+      }
+    ],
+    "reaction": [
+      {"reactionmeddrapt": "Fatigue", "reactionoutcome": "2"},
+      {"reactionmeddrapt": "Oedema peripheral", "reactionoutcome": "1"}
+    ]
+  }
+}
